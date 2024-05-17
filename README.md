@@ -22,10 +22,10 @@ Command:
 git clone https://github.com/nabeel-mustafa-git/fitness-landing-page-task.git
 ```
 
-### Demo Screeshots
+### Thumbnail Image
 
 ![Fitlife Desktop Demo](./assets/images/thumbnail.png "Desktop Demo")
 
-### Contact
+<h2 align="center">Contact</h2>
 
-If you want to contact with me you can reach me at [Linkedin](https://www.linkedin.com/in/nabeel-dev).
+<a align="center" href="https://www.linkedin.com/in/nabeel-dev"><strong>linkedin</strong></a>

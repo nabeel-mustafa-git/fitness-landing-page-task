@@ -898,6 +898,9 @@ footer .footer-links-container address {
   }
 }
 @media all and (max-width: 400px) {
+  #hero .hero-text {
+    font-family: var(--inter);
+  }
   footer .footer-links-container .store-images img {
     width: 120px;
   }

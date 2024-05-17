@@ -68,7 +68,6 @@ body {
   margin: auto;
 }
 ul {
-  list-style-position: inside;
   padding: unset;
   font-size: var(--font-normal);
 }
@@ -209,7 +208,7 @@ nav .close {
   left: 5%;
 }
 #hero .dotsright {
-  bottom: 25%;
+  bottom: 30%;
   right: 5%;
 }
 #hero .bar {
@@ -230,8 +229,8 @@ nav .close {
   right: 0%;
 }
 #hero .bar3 {
-  bottom: 10%;
-  right: -10%;
+  bottom: 5%;
+  right: -1%;
 }
 #hero .bar4 {
   bottom: -2%;
@@ -372,7 +371,9 @@ nav .close {
 /* Styles for Service section */
 #services-section {
   max-width: var(--section-max-width);
-  margin: calc(var(--space) * 3) auto;
+  margin: auto;
+  padding: calc(var(--space) * 4) 0;
+  padding-bottom: calc(var(--space) * 2);
   display: flex;
   align-items: center;
 }
@@ -464,6 +465,7 @@ nav .close {
   display: grid;
   grid-template-areas: "a b c";
   gap: calc(var(--space) * 2);
+  padding: var(--space) 0;
 }
 #pricing .pricing-card:nth-child(1) {
   grid-area: a;
@@ -518,6 +520,7 @@ nav .close {
   gap: var(--space);
   font-size: var(--font-small);
   line-height: var(--line-height-small);
+  padding-left: var(--space);
 }
 
 /* Media queries for Pricing section */
@@ -756,7 +759,7 @@ footer .site-info,
 footer .rights-info {
   max-width: var(--section-max-width);
   margin: auto;
-  padding: calc(var(--space) * 2) var(--space);
+  padding: calc(var(--space) * 1.5) var(--space);
 }
 footer .site-info {
   display: flex;
@@ -773,7 +776,7 @@ footer .signup-container h6 {
 }
 footer .signup-container p {
   font-size: var(--font-small);
-  padding: var(--space) 0;
+  padding: calc(var(--space) * 0.8) 0;
   padding-bottom: calc(var(--space) * 3);
   line-height: var(--line-height-medium);
   color: var(--white);
@@ -837,7 +840,7 @@ footer .footer-links-container a {
   display: block;
   font-size: var(--font-small);
   text-wrap: nowrap;
-  line-height: var(--line-height-medium);
+  line-height: calc(var(--line-height-medium) * 1.2);
 }
 footer .footer-links-container a:hover {
   color: var(--primary-color);

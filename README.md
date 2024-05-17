@@ -28,4 +28,8 @@ git clone https://github.com/nabeel-mustafa-git/fitness-landing-page-task.git
 
 <h2 align="center">Contact</h2>
 
-<a align="center" href="https://www.linkedin.com/in/nabeel-dev"><strong>linkedin</strong></a>
+<div align="center">
+
+If you want to contact me, you can reach me on <a align="center" href="https://www.linkedin.com/in/nabeel-dev"><strong>linkedin</strong></a>
+
+</div>

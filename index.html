@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="styles.css" />
     <title>Fitness</title>
   </head>
@@ -16,7 +17,7 @@
       <a class="logo" href="#">Fitness</a>
       <ul class="last-links hidden">
         <li><a class="link" href="#">Contact Us</a></li>
-        <li><a class="reg-btn" href="#">Register now</a></li>
+        <li><a class="styled-btn" href="#">Register now</a></li>
       </ul>
       <img src="./assets/icons/hamburger.svg" alt="nav-icon" class="hamburger show" />
       <img src="./assets/icons/close.svg" alt="clode-icon" class="close hidden" />
@@ -25,8 +26,10 @@
     <main>
       <section id="hero">
         <img class="hero-image" src="./assets/images/fitness-header-image.png" alt="models-image" />
-        <h2 class="hero-text left-text">STAY</h2>
-        <h2 class="hero-text right-text">FIT</h2>
+        <h1>
+          <span class="hero-text left-text">STAY</span>
+          <span class="hero-text right-text">FIT</span>
+        </h1>
         <img class="dotsleft dots" src="./assets/icons/dots.svg" alt="dots-image" />
         <img class="dotsright dots" src="./assets/icons/dots.svg" alt="dots-image" />
         <div class="bar bar1"></div>
@@ -64,13 +67,195 @@
         </div>
       </section>
       <section id="pricing">
-        <div class="pricing-header">
-          <h5>Pricing Plan</h5>
-          <p>They will help to attract new customers and members to achieve their goals</p>
+        <div class="pricing-container">
+          <div class="pricing-header">
+            <h5>Pricing Plan</h5>
+            <div class="wrapper">
+              <p>They will help to attract new customers and members to achieve their goals</p>
+            </div>
+          </div>
         </div>
-        <div class="pricing-info"></div>
+        <div class="pricing-cards-container">
+          <div class="pricing-card hover-effect">
+            <div class="price-title">
+              <h6>Regular Member</h6>
+              <p>$50<sub>/month</sub></p>
+            </div>
+            <div class="price-list">
+              <ul>
+                <li>Customer support</li>
+                <li>Personal trainer</li>
+                <li>Standard options</li>
+                <li>Basic exercise equipment and facilities</li>
+                <li>Limited or no access to group fitness classes</li>
+              </ul>
+            </div>
+          </div>
+          <div class="pricing-card hover-effect">
+            <div class="price-title red-card">
+              <h6>Premium Member</h6>
+              <p>$65<sub>/month</sub></p>
+            </div>
+            <div class="price-list">
+              <ul>
+                <li>Customer support</li>
+                <li>Personal trainer</li>
+                <li>Standard options</li>
+                <li>Wider variety of equipment and facilities (cardio, weights, etc.)</li>
+                <li>Access to a range of group fitness classes (e.g., yoga, spinning, HIIT)</li>
+              </ul>
+            </div>
+          </div>
+          <div class="pricing-card hover-effect">
+            <div class="price-title">
+              <h6>Regular Member</h6>
+              <p>$50<sub>/month</sub></p>
+            </div>
+            <div class="price-list">
+              <ul>
+                <li>Customer support</li>
+                <li>Personal trainer</li>
+                <li>Standard options</li>
+                <li>Extensive equipment selection and facilities</li>
+                <li>Access to a wide variety of classes and specialized training programs</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="customer-review">
+        <div class="review-header">
+          <h6>What our customer says about us</h6>
+          <p>
+            Read testimonials that highlight the positive impact our gym has on people's lives, motivating you to join our fitness community and
+            embark on your own journey to health and wellness."
+          </p>
+          <button class="styled-btn">Read More</button>
+        </div>
+        <div class="reviews-container">
+          <div class="review">
+            <img src="./assets/images/aakesh-avati.png" alt="person-image" />
+            <div class="text-container">
+              <div class="name-text-container">
+                <h6>Aakesh Avati</h6>
+                <stars-container>
+                  <span class="fa fa-star rated-star"></span>
+                  <span class="fa fa-star rated-star"></span>
+                  <span class="fa fa-star rated-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </stars-container>
+              </div>
+              <p>The trainers are incredibly knowledgeable and supportive, keeps me motivated.</p>
+            </div>
+          </div>
+          <div class="review">
+            <img src="./assets/images/eesvari-nadela.png" alt="person-image" />
+            <div class="text-container">
+              <div class="name-text-container">
+                <h6>Eesvari Nadela</h6>
+                <stars-container>
+                  <span class="fa fa-star rated-star"></span>
+                  <span class="fa fa-star rated-star"></span>
+                  <span class="fa fa-star rated-star"></span>
+                  <span class="fa fa-star rated-star"></span>
+                  <span class="fa fa-star rated-star"></span>
+                </stars-container>
+              </div>
+              <p>The atmosphere is welcoming, and the equipment is top-notch. Plus, the clean and hygienic</p>
+            </div>
+          </div>
+          <div class="review">
+            <img src="./assets/images/bhavin-raut.png" alt="person-image" />
+            <div class="text-container">
+              <div class="name-text-container">
+                <h6>Bhavin Raut</h6>
+                <stars-container>
+                  <span class="fa fa-star rated-star"></span>
+                  <span class="fa fa-star rated-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </stars-container>
+              </div>
+              <p>The friendly staff and fellow members motivates me to stay consistent with my workouts.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="community">
+        <img class="mobile-image" src="./assets/images/mobile.png" alt="mobile-image" />
+        <div class="community-text">
+          <h6>Join our community</h6>
+          <p>
+            "Join our vibrant fitness community where you'll find inspiration, support, and the motivation to reach your health and wellness goals.
+            Ready to start your fitness journey? Join our inclusive community of like-minded individuals who are dedicated to living a healthier,
+            happier life."
+          </p>
+          <div class="download-images-container">
+            <a href="#"><img class="hover-effect" src="./assets/images/playstore-black.png" alt="playtore-image" /></a>
+            <a href="#"><img class="hover-effect" src="./assets/images/appstore-black.png" alt="appstore-image" /></a>
+          </div>
+        </div>
       </section>
     </main>
+
+    <footer>
+      <section class="site-info">
+        <div class="signup-container">
+          <h6>Fitness</h6>
+          <p>
+            Meet the heart and soul of our gym - passionate trainers dedicated to your success. Explore our history and commitment to your fitness
+            journey.
+          </p>
+          <form id="form" action="">
+            <input type="email" name="email" id="email" placeholder="Email" />
+            <button type="submit">Sign up</button>
+          </form>
+        </div>
+        <div class="footer-links-container">
+          <div class="links">
+            <div class="contact">
+              <h6>Contact</h6>
+              <address>123 Fitness Avenue Gymtown, Workoutland 98765 Fitlandia</address>
+              <a href="tel:+9212345678923">+9212345678923</a>
+              <a href="mailto:fitness@gmail.com">Fitness@gmail.com</a>
+            </div>
+            <div class="help">
+              <h6>Help</h6>
+              <ul>
+                <li><a href="#">Site Map</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms & Condition</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="store-images">
+            <a href="#" class="hover-effect">
+              <img src="./assets/images/playstore-white.png" alt="playstore-image" />
+            </a>
+            <a href="#" class="hover-effect">
+              <img src="./assets/images/appstore-white.png" alt="appstore-image" />
+            </a>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section class="rights-info">
+        <p>&#169; Copyright 2023, All Rights Reserved by fitness</p>
+        <div class="icons-container">
+          <a href="#" class="hover-effect">
+            <img src="./assets/icons/twitter.png" alt="twitter-icon" />
+          </a>
+          <a href="#" class="hover-effect">
+            <img src="./assets/icons/facebook.png" alt="facebook-icon" />
+          </a>
+          <a href="#" class="hover-effect">
+            <img src="./assets/icons/instagram.png" alt="instagram" />
+          </a>
+        </div>
+      </section>
+    </footer>
 
     <script src="index.js"></script>
   </body>

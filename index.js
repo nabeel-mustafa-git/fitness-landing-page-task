@@ -26,3 +26,8 @@ closeIcon.addEventListener("click", () => {
   firstLinks.classList.remove("show");
   lastLinks.classList.remove("show");
 });
+
+const form = document.getElementById("form");
+form.addEventListener("submit", function (e) {
+  e.preventDefault();
+});

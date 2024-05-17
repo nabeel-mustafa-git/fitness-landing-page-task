@@ -125,7 +125,6 @@ button {
 
 /* Nav bar styling  */
 nav {
-  /* display: flex; */
   display: grid;
   grid-template-areas: "f logo l";
   position: relative;
@@ -173,12 +172,8 @@ nav .close {
   nav .last-links {
     display: flex;
     flex-direction: column;
-    gap: var(--space);
-    background-color: var(--white);
-    height: auto;
-    width: 100%;
-    margin: auto;
-    padding: calc(var(--space) * 2) 0;
+    gap: calc(var(--space) * 2);
+    padding: calc(var(--space) * 1) 0;
   }
   nav .hidden {
     display: none;

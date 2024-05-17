@@ -21,6 +21,8 @@ Command:
 git clone https://github.com/nabeel-mustafa-git/fitness-landing-page-task.git
 ```
 
+After running above command, go inside folder named: `fitness-landing-page-task` and open `index.html` file.
+
 ### Thumbnail Image:
 
 ![Fitlife Desktop Demo](./assets/images/thumbnail.png "Desktop Demo")
